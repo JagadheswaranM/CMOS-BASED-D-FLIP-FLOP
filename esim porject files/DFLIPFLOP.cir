@@ -1,0 +1,19 @@
+* C:\Users\jagad\eSim-Workspace\DFLIPFLOP\DFLIPFLOP.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 03/07/22 09:50:41
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+M3  VCC input Net-_M1-Pad1_ VCC eSim_MOS_P		
+M5  VCC Net-_M1-Pad1_ output VCC eSim_MOS_P		
+M1  Net-_M1-Pad1_ Net-_M1-Pad2_ Net-_M1-Pad3_ Net-_M1-Pad3_ eSim_MOS_N		
+M4  output Net-_M1-Pad3_ GND GND eSim_MOS_N		
+M2  Net-_M1-Pad3_ input GND GND eSim_MOS_N		
+v1  input GND pulse		
+v2  Net-_M1-Pad2_ GND pulse		
+U2  output plot_db		
+U1  input plot_db		
+
+.end
